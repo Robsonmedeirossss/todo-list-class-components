@@ -1,12 +1,27 @@
-# React + Vite
+# 📝 ToDo List com Class Components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto simples de lista de tarefas criado com React utilizando **Class Components**. Possui alternância entre temas claro e escuro. O objetivo é testar os conhecimentos nos seguintes tópicos:
 
-Currently, two official plugins are available:
+- Componentes
+- Props
+- States
+- Context API
+- Métodos do ciclo de vida
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Funcionalidades
 
-## Expanding the ESLint configuration
+- Visualizar e remover tarefas
+- Marcar como concluída
+- Alternar tema dark/light
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tecnologias
+
+- React (Class Components)
+- JavaScript
+- CSS Modules
+
+## 🎮 Como executar
+
+```bash
+yarn install
+yarn dev
