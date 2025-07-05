@@ -1,0 +1,48 @@
+.containerPost{
+    margin: 1rem;
+    background-color: var(--card-background-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    align-items: center;
+    border-radius: .5rem;
+}
+
+.containerPostRead{
+    margin: 1rem;
+    background-color: var(--card-background-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    align-items: center;
+    border-radius: .5rem;
+    opacity: 0.4;
+}
+
+.containerContent{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.containerContent > button{
+    font-weight: bold;
+    width: min-content;
+    display: flex;
+    background-color: transparent;
+    border: none;
+    color: var(--text-color);
+    gap: .5rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.containerContent > button:hover{
+    filter: brightness(140%);
+    transform: scale(120%);
+}
+
+.containerButtons{
+    display: flex;
+    gap: 1rem;
+}
